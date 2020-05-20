@@ -131,3 +131,15 @@ main {
     color: #FB4341;
     margin-left: 3rem;
 }
+
+#card .content .content-description p:first-of-type {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#card .content .content-description p:last-of-type {
+    font-size: 0.93rem;
+    font-weight: bold;
+    color: #d4d4d4;
+}

@@ -85,4 +85,15 @@ main {
 #card .content {
     height: 100%;
     flex: 1;
+    background: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
 }
+
+.content-wrapper {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 5fr 3fr 2.5fr 2fr;
+    gap: 2.5rem;
+}
+

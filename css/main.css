@@ -43,12 +43,43 @@ main {
     margin-top: 10rem;
     display: flex;
     border-radius: 1rem;
-    overflow: hidden;
 }
 
 #card .logo-img {
     height: 100%;
     flex-basis: 19.5rem;
+    background: linear-gradient(159.4deg, #A4EDFF 12.07%, #9CBFEA 40%, #8024A3 99.49%);
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.logo-img-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#card .logo-img .puma {
+    width: 5rem;
+}
+
+#card .logo-img .stampd {
+    width: 20rem;
+    position: absolute;
+    top: 7rem;
+    left: -5rem;
+}
+
+#card .logo-img .logo-img-icons i {
+    color: #d4d4d4;
+    font-size: 1rem;
+}
+
+#card .logo-img .logo-img-icons i:first-child {
+    color: #f4f4f4;
 }
 
 #card .content {

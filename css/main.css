@@ -97,3 +97,37 @@ main {
     gap: 2.5rem;
 }
 
+#card .content .content-header h2 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    display: inline-block;
+}
+
+#card .content .content-header > div {
+    display: inline-block;
+    margin-left: 6.5rem;
+}
+
+#card .content .content-header > div i {
+    color: #FB4341;
+    font-size: 1.7rem;
+}
+
+#card .content .content-header > p:first-of-type {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #d4d4d4;
+}
+
+#card .content .content-header .delete,
+#card .content .content-header > p:last-of-type {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+#card .content .content-header > p:last-of-type {
+    color: #FB4341;
+    margin-left: 3rem;
+}

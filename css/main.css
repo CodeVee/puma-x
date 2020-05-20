@@ -143,3 +143,29 @@ main {
     font-weight: bold;
     color: #d4d4d4;
 }
+
+#card .content .content-options {
+    display: flex;
+}
+
+#card .content .content-options > div {
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+#card .content .content-options > div:first-of-type {
+    margin-right: 3rem;
+}
+
+#card .content .content-options > div h3 {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+#card .content .content-options .drpdwn {
+    border-left: 1px solid #d4d4d4;
+    padding: 0 3rem;
+}

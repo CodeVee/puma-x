@@ -27,7 +27,7 @@ body, html {
 
 .container {
     width: 90%;
-    height: 76%;
+    height: 80%;
     margin: auto;
     margin-top: 5.4rem;
 }
@@ -64,6 +64,7 @@ main {
 
 #card .logo-img .puma {
     width: 5rem;
+    margin-top: 1rem; 
 }
 
 #card .logo-img .stampd {
@@ -148,16 +149,38 @@ main {
     display: flex;
 }
 
-#card .content .content-options > div {
+#card .content .content-options .content-options-box {
     height: 5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;  
+    justify-content: space-between; 
+}
+
+#card .content .content-options .content-options-box .select-drpdwn {
+    display: flex;
+    align-items: center;
+    color: #d4d4d4;
+    font-weight: bold;
+}
+
+#card .content .content-options .content-options-box .select-drpdwn p {
+    font-size: 1.2rem;
+}
+
+#card .content .content-options .content-options-box .select-drpdwn i {
+    font-size: 1.5rem;
 }
 
 #card .content .content-options > div:first-of-type {
     margin-right: 3rem;
+}
+
+#card .content .content-options > div:first-of-type i {
+    font-size: 1.7rem;
+}
+
+#card .content .content-options > div:first-of-type i:last-child {
+    color: #d4d4d4;
 }
 
 #card .content .content-options > div h3 {
@@ -168,4 +191,34 @@ main {
 #card .content .content-options .drpdwn {
     border-left: 1px solid #d4d4d4;
     padding: 0 3rem;
+}
+
+#card .content .content-submit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#card .content .content-submit button {
+    display: inline-block;
+    border: none;
+    height: 4rem;
+    width: 16rem;
+    text-transform: uppercase;
+    background: linear-gradient(360deg, #FF5147 0%, rgba(255, 153, 111, 0.7) 58.01%);
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.4rem;
+    border-radius: .4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card .content .content-submit button i {
+    margin-right: .5rem;
+}
+
+#card .content .content-submit:last-child {
+    color: #d4d4d4;
 }

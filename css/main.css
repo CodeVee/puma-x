@@ -43,6 +43,11 @@ main {
     margin-top: 10rem;
     display: flex;
     border-radius: 1rem;
+    -webkit-box-shadow: 0px 0px 26px 11px rgba(212,212,212,1);
+    -moz-box-shadow: 0px 0px 26px 11px rgba(212,212,212,1);
+    box-shadow: 0px 0px 26px 11px rgba(212,212,212,1);
+    border-radius: 1.5rem;
+
 }
 
 #card .logo-img {
